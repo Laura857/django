@@ -22,11 +22,21 @@ Contact : formulaire de contact
 
 Avoir un environnement virtuel et le lancer -> ici Virtualenv
 
+```
 source myvenv/bin/activate
+```
+
+
 Ensuite, se mettre dans le dossier /mysite.
 
+```
 cd mysite/
-Puis lancer la commande suite :
+```
 
+Puis lancer la commande :
+
+```
 python3 manage.py runserver
+```
+
 Vous pouvez accéder à l'application via ici : http://127.0.0.1:8000/
